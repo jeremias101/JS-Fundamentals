@@ -1,5 +1,7 @@
 const names = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+let i = 0;
 
-for(let i = 0; i < names.length; i++){ 
+while(i < names.length){
 console.log(names[i]);
+  i++;
 }
