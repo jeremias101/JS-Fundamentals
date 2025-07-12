@@ -1,7 +1,9 @@
-const names = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
-let i = 0;
+const lines = [
+  "C is fun",
+  "Python is cool",
+  "JavaScript is amazing"
+];
 
-while(i < names.length){
-console.log(names[i]);
-  i++;
+for (let i = 0; i < lines.length; i++) {
+  console.log(lines[i]);
 }
